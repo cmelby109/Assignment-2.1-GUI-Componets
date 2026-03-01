@@ -1,0 +1,39 @@
+namespace MCU_Command_Center
+{
+    public partial class FormCommand : Form
+    {
+        public FormCommand()
+        {
+            InitializeComponent();
+        }
+
+        private void labelCPU_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            //this will direct the user back to the main page
+            MessageBox.Show("This will being you back to the home page", "Home");
+        }
+
+        private void Briefing_Click(object sender, EventArgs e)
+        {
+            // this will being you to the Briefing for the agents missions
+            MessageBox.Show("This will direct you to the other page detecated to the Mission Briefing", "Mission Briefing");
+        }
+
+        private void Directory_Click_1(object sender, EventArgs e)
+        {
+            // this will being you to the directory of the agents within the directly
+            MessageBox.Show("This will direct you to the other page detecated to the agent directory", "Agent Directory");
+        }
+
+        private void status_Click(object sender, EventArgs e)
+        {
+            // this will being you to the status of the agents within the command
+            MessageBox.Show("This will direct you to the other page detecated to the system status", "System Status");
+        }
+    }
+}
